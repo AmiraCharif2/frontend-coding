@@ -28,7 +28,6 @@ export class AllSpeakersComponent implements OnInit {
             .subscribe((res: IpageResult) => {
                 this.speakers = res.results
                 this.filteredSpeakers = res.results
-                // console.log(res);
             })
     }
 
@@ -48,7 +47,6 @@ export class AllSpeakersComponent implements OnInit {
             .subscribe((res: IpageResult) => {
                 this.speakers = res.results
                 this.filteredSpeakers = res.results
-                // console.log(res);
             })
     }
 }
