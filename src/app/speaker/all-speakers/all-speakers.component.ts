@@ -8,9 +8,9 @@ import { MaterialModule } from 'src/app/material/material.module';
   styleUrls: ['./all-speakers.component.scss']
 })
 export class AllSpeakersComponent implements OnInit{
-speakers!:Array<Person>
-selectedValue! :string;
-searchText :string ='';
+    speakers!:Array<Person>
+    selectedValue! :string;
+    searchText :string ='';
 constructor (private service:SpeakerService){}
 
 ngOnInit(): void {

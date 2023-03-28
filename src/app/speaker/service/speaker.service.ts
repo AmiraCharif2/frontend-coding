@@ -83,8 +83,6 @@ export class SpeakerService {
 
   }
   
-  getFilter (event : Event){
-    
-  }
+ 
   
 }
